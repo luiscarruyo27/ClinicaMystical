@@ -1,0 +1,67 @@
+body{ 
+    background-image: url(../img/foto2.jpg); 
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    height: 100vh;  
+}
+.form-group{
+    margin: 10px auto;
+    
+}
+.caja{
+    font-family:sans-serif;
+    border-radius: 20px; 
+    color: rgb(255, 255, 255);
+    margin: 30px auto;
+    border: 3px solid rgb(4, 9, 73);
+    text-align: center;
+    width:650px;
+    background: rgba(56, 17, 163, 0.616);
+  
+} 
+.btn{ 
+    width: 200px;
+    height: 40px;
+    font-family:sans-serif;
+    margin-bottom: 20px;
+    color: rgb(245, 245, 245);
+ }
+.caja1{
+    border-radius: 5px;
+    border: 3px solid rgb(40, 4, 82);
+    margin-top: 30px;
+    margin: 20px 40px ;
+    text-align: center;
+    color: #fff;
+    font-family:Lucida Calligraphy;
+    width:  auto;
+    background:rgba(0, 0, 0, 0.603);   
+} 
+
+.color{
+  background: rgba(36, 10, 180, 0.472);
+}
+
+.caja2{
+    border-radius: 5px;
+    border: 3px solid #fff;
+    margin: 20px auto;
+    text-align: center;
+    width: 400px;
+    background: rgba(17, 19, 138, 0.472);
+} 
+h1{
+    color: rgb(83, 5, 5);
+    font-size: 120;
+}
+
+@media(max-width:650px){
+    .btn{
+        width: 150px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
